@@ -12,6 +12,7 @@
     box-sizing: border-box;
     display: -webkit-box;
     display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
 }
 .layout-row {
@@ -32,6 +33,7 @@
     -webkit-align-items: center;
     -ms-grid-row-align: center;
     align-items: center;
+    -ms-flex-align: center;
     -webkit-align-content: center;
     align-content: center;
     max-width: 100%;
