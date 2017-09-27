@@ -25,11 +25,13 @@
     -webkit-flex-direction: row;
     flex-direction: row;
 }
+
 .layout-column {
     -webkit-box-orient: vertical;
     -webkit-flex-direction: column;
     flex-direction: column;
 }
+
 .layout-align-center-center,
 .layout-align-start-center,
 .layout-align-end-center,
@@ -48,22 +50,38 @@
     -webkit-box-pack: center;
     -webkit-justify-content: center;
 }
+
 /*-- START CENTER --*/
-.layout-align-start-center {
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
+.layout-align-start-center, .layout-align-start-end, .layout-align-space-around-start, .layout-align-space-between-start {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-align-content: flex-start;
+    align-content: flex-start;
 }
+
 /*-- END CENTER --*/
 .layout-align-end-center {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
 }
+
+/* END */
+.layout-align-space-around-end, .layout-align-space-between-end, .layout-align-start-end {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
+}
+
 /*-- SPACE AROUND CENTER --*/
 .layout-align-space-around-center {
     -webkit-justify-content: space-around;
 }
+
 /*-- SPACE BETWEEN CENTER --*/
-.layout-align-space-between-center {
+.layout-align-space-between-center, .layout-align-space-between-start, .layout-align-space-between-end {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
