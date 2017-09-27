@@ -5,3 +5,6 @@
 
  ### Demo
  See demo <a href="https://codepen.io/gss-patricia/pen/pWexbE"> here </a>
+
+
+ *Based in Angular Material Design Child alignment
