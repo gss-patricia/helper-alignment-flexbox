@@ -1,6 +1,6 @@
 # helper-alignment-flexbox
 
-## Apply on parent element to align your childs
+ ## Apply on parent element to align his child
  Ex: class="layout-row layout-align-center-center"
 
  ### Demo
